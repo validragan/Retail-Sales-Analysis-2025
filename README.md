@@ -1,19 +1,39 @@
 # Retail Sales Analysis 2025
 
-This project demonstrates a basic retail sales analysis workflow using **Python, Pandas, and Matplotlib**.
+This project demonstrates a basic **retail sales analysis** workflow using **Python, Pandas, and Matplotlib**.
 
-## Structure
-- `data/sales.csv` – sample dataset with 100 synthetic transactions
-- `notebooks/sales_analysis.ipynb` – load, clean, aggregate, and visualize
-- `dashboard/sales_top10.png` – bar chart of top products by sales
-- `dashboard/sales_trends.png` – monthly sales trend line chart
+## 📂 Project Structure
 
-## How to Run
-1. Open `notebooks/sales_analysis.ipynb` in Jupyter Notebook
-2. Run all cells (`Cell → Run All`)
-3. Figures will be saved in the `dashboard/` folder
+## 🔍 Analysis Steps
+1. Load and clean the dataset (`data/sales.csv`)  
+2. Compute **Top 10 Products by Total Sales**  
+3. Analyze **Monthly Sales Trends**  
+4. Generate visualizations and export them as images  
 
-## Highlights
-- Top 10 products by total sales
-- Monthly sales trend
-- Quick insights (best-selling product and peak month)
+## 📊 Results
+- **Top 10 Products**  
+  ![Top Products](dashboard/sales_top10.png)
+
+- **Monthly Sales Trend**  
+  ![Monthly Trend](dashboard/sales_trends.png)
+
+## 🚀 Tech Stack
+- Python 3  
+- Pandas  
+- Matplotlib  
+- Jupyter Notebook  
+
+## ✨ Highlights
+- Created a **synthetic dataset** of 100 transactions  
+- Produced **clear business insights** (best product, peak month)  
+- Visualizations saved for portfolio presentation  
+
+---
+
+👉 Acest format are:  
+- explicație scurtă,  
+- structură clară,  
+- imagini embed (ca să se vadă direct pe GitHub),  
+- „highlights” ca să arăți ce ai făcut.  
+
+Vrei să-ți scriu și varianta **în română** (pentru aplicații locale), sau mergem doar cu cea în engleză pentru GitHub?
